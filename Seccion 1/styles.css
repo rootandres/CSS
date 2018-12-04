@@ -1,0 +1,56 @@
+/*
+
+Selectores
+Especifidad
+Cascada
+Herencia
+
+box model
+position
+flexbox
+
+*/
+
+
+/*
+
+Selectores de etiqueta:
+    Usan la etiqueta html del elemento
+
+Selectores descendientes:
+    Son selectores separados por un espacio.
+    El primero es el padre y el segundo es el descendiente de cualquier nivel
+*/
+
+h1{
+    color: yellow;
+}
+
+h3 span{
+    color: green;
+}
+
+/* Tipos de datos
+
+    Unidades de color
+    Unidades de tiempo
+    funcion: calc(), var()    
+    declaracion: --variable
+*/
+
+h1 {
+    --color: blue;
+    background: var(--color);
+}
+
+body{
+    background: var(--color);    
+}
+
+/*Estilos de texto
+*/
+
+h1 {
+    font-size: 60px;
+    font-family: serif;
+}
